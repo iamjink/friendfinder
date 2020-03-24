@@ -10,6 +10,12 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+    <!-- Compiled and minified Materialize CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+	<!-- Compiled and minified Materialize JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
     <!-- Font Awesome Glyphicons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
@@ -210,7 +216,7 @@
         </footer>
     </div>
 
-    <div id="modal1" class="modal">
+    <div id="responseModal" class="modal">
 		<div class="modal-content">
 			<h4>Closest Friend Match</h4>
 			<div class="divider"></div>
@@ -218,7 +224,7 @@
 			<img id="matchPhoto" class="materialboxed" width="650" src="">
 		</div>
 		<div class="modal-footer">
-			<a href="/survey" class="modal-action modal-close waves-effect waves-green btn-flat">Fill Again!</a>
+			<a href="/survey" class="modal-action modal-close waves-effect waves-green btn-flat">Survey Again!</a>
 		</div>
 	</div>
 
@@ -287,7 +293,7 @@
                     $("#matchName").text(data.matchName);
                     $("#matchPhoto").attr("src", data.matchPhoto);
 
-                    $("#modalResult").modal("open");
+                    $("#responseModal").modal("open");
 
                 });
         });
