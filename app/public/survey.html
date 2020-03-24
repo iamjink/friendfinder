@@ -42,481 +42,156 @@
                     <div class="card-body">
                         <form role="form">
                             <div class="form-group">
-                                <label for="user-name">
-                                    <h3><b>Name (Required)</b></h3>
-                                </label>
+                                <h3><b>Name (Required)</b></h3>
                                 <input type="text" class="form-control" id="user-name">
                             </div>
                             <div class="form-group">
-                                <label for="user-photo">
-                                    <h3><b>Link to Photo Image (Required)</b></h3>
-                                </label>
+                                <h3><b>Link to Photo Image (Required)</b></h3>
                                 <input type="text" class="form-control" id="user-photo">
                             </div>
 
                             <!-- question 1 -->
                             <div class="form-group">
-                                <label for="user-score">
-                                    <h3><b>Question 1</b></h3>
-                                    <h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
-                                </label>
-                                <!-- choices -->
-                                <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q1" value="1"
-                                            checked>
-                                        <label class="form-check-label" for="q1">
-                                            1 (Strongly Disagree)
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q1"
-                                            value="2">
-                                        <label class="form-check-label" for="q1">
-                                            2
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q1"
-                                            value="3">
-                                        <label class="form-check-label" for="q1">
-                                            3
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q1"
-                                            value="4">
-                                        <label class="form-check-label" for="q1">
-                                            4
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q1"
-                                            value="5">
-                                        <label class="form-check-label" for="q1">
-                                            5 (Strongly Agree)
-                                        </label>
-                                    </div>
-                                </div>
+                                <h3><b>Question 1</b></h3>
+                                <h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
+                                <select class="chosen-select" id="q1">
+                                    <option value="" disabled selected>select your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
                             </div>
                             <br>
                             <!-- question 2 -->
                             <div class="form-group">
-                                <label for="user-score">
-                                    <h3><b>Question 2</b></h3>
-                                    <h5>Generally speaking, you rely more on your experience than your imagination.</h5>
-                                </label>
-                                <!-- choices -->
-                                <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q2" value="1"
-                                            checked>
-                                        <label class="form-check-label" for="gridRadios1">
-                                            1 (Strongly Disagree)
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q2"
-                                            value="2">
-                                        <label class="form-check-label" for="q2">
-                                            2
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q2"
-                                            value="3">
-                                        <label class="form-check-label" for="q2">
-                                            3
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q2"
-                                            value="4">
-                                        <label class="form-check-label" for="q2">
-                                            4
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q2"
-                                            value="5">
-                                        <label class="form-check-label" for="q2">
-                                            5 (Strongly Agree)
-                                        </label>
-                                    </div>
-                                </div>
+                                <h3><b>Question 2</b></h3>
+                                <h5>Generally speaking, you rely more on your experience than your imagination.</h5>
+                                <select class="chosen-select" id="q2">
+                                    <option value="" disabled selected>select your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
                             </div>
                             <br>
                             <!-- question 3 -->
                             <div class="form-group">
-                                <label for="user-score">
-                                    <h3><b>Question 3</b></h3>
-                                    <h5>You find it easy to stay relaxed and focused even when there is some pressure..
-                                    </h5>
-                                </label>
-                                <!-- choices -->
-                                <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q3" value="1"
-                                            checked>
-                                        <label class="form-check-label" for="q3">
-                                            1 (Strongly Disagree)
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q3"
-                                            value="2">
-                                        <label class="form-check-label" for="q3">
-                                            2
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q3"
-                                            value="3">
-                                        <label class="form-check-label" for="q3">
-                                            3
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q3"
-                                            value="4">
-                                        <label class="form-check-label" for="q3">
-                                            4
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q3"
-                                            value="5">
-                                        <label class="form-check-label" for="q3">
-                                            5 (Strongly Agree)
-                                        </label>
-                                    </div>
-                                </div>
+                                <h3><b>Question 3</b></h3>
+                                <h5>You find it easy to stay relaxed and focused even when there is some pressure..
+                                </h5>
+                                <select class="chosen-select" id="q3">
+                                    <option value="" disabled selected>select your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
                             </div>
                             <br>
                             <!-- question 4 -->
                             <div class="form-group">
-                                <label for="user-score">
-                                    <h3><b>Question 4</b></h3>
-                                    <h5>You rarely do something just out of sheer curiosity.</h5>
-                                </label>
-                                <!-- choices -->
-                                <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q4" value="1"
-                                            checked>
-                                        <label class="form-check-label" for="q4">
-                                            1 (Strongly Disagree)
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q4"
-                                            value="2">
-                                        <label class="form-check-label" for="q4">
-                                            2
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q4"
-                                            value="3">
-                                        <label class="form-check-label" for="q4">
-                                            3
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q4"
-                                            value="4">
-                                        <label class="form-check-label" for="q4">
-                                            4
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q4"
-                                            value="5">
-                                        <label class="form-check-label" for="q4">
-                                            5 (Strongly Agree)
-                                        </label>
-                                    </div>
-                                </div>
+                                <h3><b>Question 4</b></h3>
+                                <h5>You rarely do something just out of sheer curiosity.</h5>
+                                <select class="chosen-select" id="q4">
+                                    <option value="" disabled selected>select your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
                             </div>
                             <br>
                             <!-- question 5 -->
                             <div class="form-group">
-                                <label for="user-score">
-                                    <h3><b>Question 5</b></h3>
-                                    <h5>People can rarely upset you.</h5>
-                                </label>
-                                <!-- choices -->
-                                <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q5" value="1"
-                                            checked>
-                                        <label class="form-check-label" for="q5">
-                                            1 (Strongly Disagree)
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q5"
-                                            value="2">
-                                        <label class="form-check-label" for="q5">
-                                            2
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q5"
-                                            value="3">
-                                        <label class="form-check-label" for="q5">
-                                            3
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q5"
-                                            value="4">
-                                        <label class="form-check-label" for="q5">
-                                            4
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q5"
-                                            value="5">
-                                        <label class="form-check-label" for="q5">
-                                            5 (Strongly Agree)
-                                        </label>
-                                    </div>
-                                </div>
+                                <h3><b>Question 5</b></h3>
+                                <h5>People can rarely upset you.</h5>
+                                <select class="chosen-select" id="q5">
+                                    <option value="" disabled selected>select your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
                             </div>
                             <br>
                             <!-- question 6 -->
                             <div class="form-group">
-                                <label for="user-score">
-                                    <h3><b>Question 6</b></h3>
-                                    <h5>It is often difficult for you to relate to other people’s feelings.</h5>
-                                </label>
-                                <!-- choices -->
-                                <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q6" value="1"
-                                            checked>
-                                        <label class="form-check-label" for="q6">
-                                            1 (Strongly Disagree)
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q6"
-                                            value="2">
-                                        <label class="form-check-label" for="q6">
-                                            2
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q6"
-                                            value="3">
-                                        <label class="form-check-label" for="q6">
-                                            3
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q6"
-                                            value="4">
-                                        <label class="form-check-label" for="q6">
-                                            4
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q6"
-                                            value="5">
-                                        <label class="form-check-label" for="q6">
-                                            5 (Strongly Agree)
-                                        </label>
-                                    </div>
-                                </div>
+                                <h3><b>Question 6</b></h3>
+                                <h5>It is often difficult for you to relate to other people’s feelings.</h5>
+                                <select class="chosen-select" id="q6">
+                                    <option value="" disabled selected>select your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
                             </div>
                             <br>
                             <!-- question 7 -->
                             <div class="form-group">
-                                <label for="user-score">
-                                    <h3><b>Question 7</b></h3>
-                                    <h5>In a discussion, truth should be more important than people’s sensitivities.
-                                    </h5>
-                                </label>
-                                <!-- choices -->
-                                <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q7" value="1"
-                                            checked>
-                                        <label class="form-check-label" for="q7">
-                                            1 (Strongly Disagree)
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q7"
-                                            value="2">
-                                        <label class="form-check-label" for="q7">
-                                            2
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q7"
-                                            value="3">
-                                        <label class="form-check-label" for="q7">
-                                            3
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q7"
-                                            value="4">
-                                        <label class="form-check-label" for="q7">
-                                            4
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q7"
-                                            value="5">
-                                        <label class="form-check-label" for="q7">
-                                            5 (Strongly Agree)
-                                        </label>
-                                    </div>
-                                </div>
+                                <h3><b>Question 7</b></h3>
+                                <h5>In a discussion, truth should be more important than people’s sensitivities.
+                                </h5>
+                                <select class="chosen-select" id="q7">
+                                    <option value="" disabled selected>select your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
                             </div>
                             <br>
                             <!-- question 8 -->
                             <div class="form-group">
-                                <label for="user-score">
-                                    <h3><b>Question 8</b></h3>
-                                    <h5>You rarely get carried away by fantasies and ideas.</h5>
-                                </label>
-                                <!-- choices -->
-                                <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q8" value="1"
-                                            checked>
-                                        <label class="form-check-label" for="q8">
-                                            1 (Strongly Disagree)
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q8"
-                                            value="2">
-                                        <label class="form-check-label" for="q8">
-                                            2
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q8"
-                                            value="3">
-                                        <label class="form-check-label" for="q8">
-                                            3
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q8"
-                                            value="4">
-                                        <label class="form-check-label" for="q8">
-                                            4
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q8"
-                                            value="5">
-                                        <label class="form-check-label" for="q8">
-                                            5 (Strongly Agree)
-                                        </label>
-                                    </div>
-                                </div>
+                                <h3><b>Question 8</b></h3>
+                                <h5>You rarely get carried away by fantasies and ideas.</h5>
+                                <select class="chosen-select" id="q8">
+                                    <option value="" disabled selected>select your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
                             </div>
                             <br>
                             <!-- question 9 -->
                             <div class="form-group">
-                                <label for="user-score">
-                                    <h3><b>Question 9</b></h3>
-                                    <h5>You think that everyone’s views should be respected regardless of whether they
-                                        are supported by facts or not.</h5>
-                                </label>
-                                <!-- choices -->
-                                <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q9" value="1"
-                                            checked>
-                                        <label class="form-check-label" for="q9">
-                                            1 (Strongly Disagree)
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q9"
-                                            value="2">
-                                        <label class="form-check-label" for="q9">
-                                            2
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q9"
-                                            value="3">
-                                        <label class="form-check-label" for="q9">
-                                            3
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q9"
-                                            value="4">
-                                        <label class="form-check-label" for="q9">
-                                            4
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q9"
-                                            value="5">
-                                        <label class="form-check-label" for="q9">
-                                            5 (Strongly Agree)
-                                        </label>
-                                    </div>
-                                </div>
+                                <h3><b>Question 9</b></h3>
+                                <h5>You think that everyone’s views should be respected regardless of whether they
+                                    are supported by facts or not.</h5>
+                                <select class="chosen-select" id="q9">
+                                    <option value="" disabled selected>select your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
                             </div>
                             <br>
                             <!-- question 10 -->
                             <div class="form-group">
-                                <label for="user-score">
-                                    <h3><b>Question 10</b></h3>
-                                    <h5>You feel more energetic after spending time with a group of people.</h5>
-                                </label>
-                                <!-- choices -->
-                                <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q10"
-                                            value="1" checked>
-                                        <label class="form-check-label" for="q10">
-                                            1 (Strongly Disagree)
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q10"
-                                            value="2">
-                                        <label class="form-check-label" for="q10">
-                                            2
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q10"
-                                            value="3">
-                                        <label class="form-check-label" for="q10">
-                                            3
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q10"
-                                            value="4">
-                                        <label class="form-check-label" for="q10">
-                                            4
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="q10"
-                                            value="5">
-                                        <label class="form-check-label" for="q10">
-                                            5 (Strongly Agree)
-                                        </label>
-                                    </div>
-                                </div>
+                                <h3><b>Question 10</b></h3>
+                                <h5>You feel more energetic after spending time with a group of people.</h5>
+                                <select class="chosen-select" id="q10">
+                                    <option value="" disabled selected>select your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
                             </div>
-
                             <br>
                             <!-- submit button -->
                             <button type="submit" class="btn btn-primary submit">Submit</button>
@@ -525,24 +200,68 @@
                 </div>
             </div>
         </div>
-        <br>
+        <br> <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    <a href="/api/friendslist">API Friendslist</a> |
+                    <a href="/githubrepo">GitHub Repo</a>
+            </div>
+        </footer>
     </div>
 
-    <!-- footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>
-                <a href="/api/friendslist">API Friendslist</a> |
-                <a href="/githubrepo">GitHub Repo</a>
-        </div>
-    </footer>
+    <div id="modal1" class="modal">
+		<div class="modal-content">
+			<h4>Closest Friend Match</h4>
+			<div class="divider"></div>
+			<h5 id="matchName"></h5>
+			<img id="matchPhoto" class="materialboxed" width="650" src="">
+		</div>
+		<div class="modal-footer">
+			<a href="/survey" class="modal-action modal-close waves-effect waves-green btn-flat">Fill Again!</a>
+		</div>
+	</div>
 
     <!-- script -->
     <script type="text/javascript">
+        $(document).ready(function () {
+            $('select').material_select();
+
+            $('.modal').modal({
+                dismissible: false, // Modal can be dismissed by clicking outside of the modal
+                opacity: .5, // Opacity of modal background
+                inDuration: 300, // Transition in duration
+                outDuration: 200, // Transition out duration
+                startingTop: '4%', // Starting top style attribute
+                endingTop: '10%' // Ending top style attribute
+            });
+        });
+
+        //validate form
+        function validate() {
+            var isValid = true;
+
+            $(".form-control").each(function () {
+                if ($(this).val() === "") {
+                    isValid = false;
+                };
+            });
+
+            $(".chosen-select").each(function () {
+                if ($(this).val() === "") {
+                    isValid = false;
+                }
+            });
+
+            return isValid;
+        }
+
+        //form input
         $(".submit").on("click", function (event) {
             event.preventDefault();
 
-            var userData = {
+
+            var userInput = {
                 userName: $("#user-name").val().trim(),
                 userPhoto: $("#user-photo").val().trim(),
                 score: [
@@ -559,23 +278,20 @@
                 ]
             };
 
-            console.log(userData);
+            console.log(userInput);
 
-            $.post("/api/friendslist", userData,
+            //AJAX to post to API
+            $.post("/api/friendslist", userInput,
                 function (data) {
 
-                    if (data) {
-                        alert("Here is your match!");
-                    } else {
-                        alert("Please complete the form");
-                    }
+                    $("#matchName").text(data.matchName);
+                    $("#matchPhoto").attr("src", data.matchPhoto);
+
+                    $("#modalResult").modal("open");
 
                 });
-
         });
     </script>
-
-
 
 </body>
 

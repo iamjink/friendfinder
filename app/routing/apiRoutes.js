@@ -25,11 +25,11 @@ module.exports = function (app) {
                 totalDifference = diff;
                 matchName = friends[i].userName;
                 matchPhoto = friends[i].userPhoto;
-                console.log(totalDifference);
+           
                 // console.log(matchName);
                 // console.log(matchPhoto);
 
-            }
+            }     console.log(totalDifference);
         }
         friends.push(userInput);
         res.json({
