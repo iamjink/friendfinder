@@ -103,7 +103,6 @@ var friendsDataArr = [{
             "3"
         ]
     }
+];
 
-
-
-]
+module.exports = friendsDataArr;
